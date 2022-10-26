@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Web Studio</title>
+    <meta name="description" content="webstudioproject" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Encabezado de la página -->
+    <header>
+      <div class="container">
+        <nav class="nav-container">
+          <!-- Navegación a otros sitios -->
+          <a class="logo" href="/">WebStudio</a>
+          <a class="active-link" href="index.html">Estudio</a>
+          <a class="active-link" href="portfolio.html">Portafolio</a>
+          <a class="active-link" href="">Contactos</a>
+        </nav>
+
+        <div class="contact-container">
+          <a class="contact-link" href="mailto:info@devstudio.com">
+            <svg class="icon" width="16" height="16">
+              <use href="./images/symbol-defs.svg#icon-mail"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+
+          <a class="contact-link" href="tel:+525555296000"
+            ><svg class="icon" width="10" height="16">
+              <use href="./images/symbol-defs.svg#icon-cel"></use>
+            </svg>
+            +52 55 5529 6000</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Contenido único de la página -->
+    <main>
+      <div class="container">
+        <div class="title-container">
+          <h1 class="h1-title">Soluciones eficaces para su negocio</h1>
+          <button class="button-index" type="button">
+            Solicite nuestros servicios
+          </button>
+        </div>
+      </div>
+
+      <!-- Valores de la compañía -->
+
+      <section class="container">
+        <div class="values-container">
+          <svg class="icon-benefits" width="270" height="120">
+            <use
+              href="./images/symbol-defs.svg#icon-beneficio1"
+              width="70"
+              height="70"
+              x="100"
+              y="25"
+            ></use>
+          </svg>
+          <svg class="icon-benefits" width="270" height="120">
+            <use
+              href="./images/symbol-defs.svg#icon-beneficio2"
+              width="70"
+              height="70"
+              x="100"
+              y="25"
+            ></use>
+          </svg>
+          <svg class="icon-benefits" width="270" height="120">
+            <use
+              href="./images/symbol-defs.svg#icon-beneficio3"
+              width="70"
+              height="70"
+              x="100"
+              y="25"
+            ></use>
+          </svg>
+          <svg class="icon-benefits" width="270" height="120">
+            <use
+              href="./images/symbol-defs.svg#icon-beneficio4"
+              width="70"
+              height="70"
+              x="100"
+              y="25"
+            ></use>
+          </svg>
+        </div>
+
+        <div>
+          <ul class="values-container" style="list-style: none">
+            <li>
+              <span class="values"> Atención a los detalles </span>
+              <span class="values-description"
+                >Nos adentramos en todos los detalles y procesos de su negocio,
+                para así desarrollar una solución a su medida.</span
+              >
+            </li>
+            <li>
+              <span class="values"> Puntualidad </span>
+              <span class="values-description"
+                >Con nosotros, usted puede sentirse seguro y protegido. Un
+                principio importante de la empresa: respetar su tiempo y
+                respetar los plazos acordados.</span
+              >
+            </li>
+            <li>
+              <span class="values"> Planificación </span>
+              <span class="values-description"
+                >Usted podrá observar y participar en cada fase del desarrollo y
+                aplicación de soluciones.</span
+              >
+            </li>
+            <li>
+              <span class="values"> Tecnología Moderna </span>
+              <span class="values-description"
+                >Usamos herramientas innovadoras para resolver las tareas
+                asignadas. Es hora de simplificar los procesos laborales.</span
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- A qué nos dedicamos -->
+
+      <section class="container">
+        <h2 class="h2-title">A qué nos dedicamos</h2>
+        <div class="devices">
+          <div class="devices-images">
+            <p class="text">APLICACIONES DE ESCRITORIO</p>
+            <img
+              class="text-images"
+              src="images/imagen.jpg"
+              alt="Sobre el escritorio, una tablet, teclado y manos digitando"
+              width="373"
+              height="324"
+            />
+          </div>
+          <div class="devices-images">
+            <p class="text">APLICACIONES MÓVILES</p>
+            <img
+              class="text-images"
+              src="images/imagen1.jpg"
+              alt="Un par de manos, una digitando en un portátil y la otra sosteniendo un celular"
+              width="373"
+              height="324"
+            />
+          </div>
+          <div class="devices-images">
+            <p class="text">SOLUCIONES DE DISEÑO</p>
+            <img
+              class="text-images"
+              src="images/imagen2.jpg"
+              alt="Una tablet con fondo de colores"
+              width="373"
+              height="324"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Nuestro Equipo -->
+
+      <section class="member-container">
+        <div class="container">
+          <h2 class="h2-title">Nuestro Equipo</h2>
+          <div class="members-section">
+            <div class="member-card">
+              <img
+                class="member-image"
+                src="images/imagen3.jpg"
+                alt="Foto de Andrés Cubo"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-members">Andrés Cubo</h3>
+              <p class="position">Diseñador de Productos</p>
+              <div class="icon-container">
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twiter"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+            <div class="member-card">
+              <img
+                class="member-image"
+                src="images/imagen4.jpg"
+                alt="Foto de Carla Palacios"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-members">Claudia Palacios</h3>
+              <p class="position">Desarrolladora Frontend</p>
+              <div class="icon-container">
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twiter"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+            <div class="member-card">
+              <img
+                class="member-image"
+                src="images/imagen5.jpg"
+                alt="Foto de Mario Dorado"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-members">Mario Dorado</h3>
+              <p class="position">Marketing</p>
+              <div class="icon-container">
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twiter"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+            <div class="member-card">
+              <img
+                class="member-image"
+                src="images/imagen6.jpg"
+                alt="Foto de Pablo Mijangos"
+                width="270"
+                height="260"
+              />
+              <h3 class="team-members">Pablo Mijangos</h3>
+              <p class="position">Diseñador IU</p>
+              <div class="icon-container">
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-instagram"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-twiter"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-facebook"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+                <svg class="icon-socialmedia" width="44" height="44">
+                  <use
+                    href="./images/symbol-defs.svg#icon-linkedin"
+                    width="20"
+                    height="20"
+                    x="12"
+                    y="12"
+                  ></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Clientes Regulares -->
+
+      <section class="container">
+        <h2 class="h2-title">Clientes Regulares</h2>
+
+        <div class="customer-brands">
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company1"
+              width="41"
+              height="46.7"
+              x="64"
+              y="21"
+            ></use>
+          </svg>
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company2"
+              width="38.47"
+              height="34.05"
+              x="64"
+              y="21"
+            ></use>
+          </svg>
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company3"
+              width="43.46"
+              height="41.18"
+              x="62"
+              y="23"
+            ></use>
+          </svg>
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company4"
+              width="84.44"
+              height="41"
+              x="43"
+              y="23"
+            ></use>
+          </svg>
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company5"
+              width="62.54"
+              height="45.43"
+              x="54"
+              y="21"
+            ></use>
+          </svg>
+          <svg class="icon-customer" width="170" height="81">
+            <use
+              href="./images/symbol-defs.svg#icon-company6"
+              width="93.8"
+              height="44"
+              x="38"
+              y="21"
+            ></use>
+          </svg>
+        </div>
+      </section>
+    </main>
+
+    <!-- Pie de página -->
+
+    <footer class="footer-container">
+      <div class="container">
+        <div class="footer-container1">
+          <a class="logo" href="/">WebStudio</a>
+          <address class="add">
+            Calz. Ticomán 500, Ciudad de México, CDMX, México
+            <a class="footer-contact-link" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+            <a class="footer-contact-link" href="tel:+525555296000"
+              >+52 55 5529 6000</a
+            >
+          </address>
+        </div>
+        <div class="footer-container2">
+          <p class="social-media">Encuéntrenos en</p>
+          <a href="/">
+            <svg class="icon-footer" width="44" height="44">
+              <use
+                href="./images/symbol-defs.svg#icon-instagram"
+                width="20"
+                height="20"
+                x="12"
+                y="12"
+              ></use>
+            </svg>
+          </a>
+          <a href="/">
+            <svg class="icon-footer" width="44" height="44">
+              <use
+                href="./images/symbol-defs.svg#icon-twiter"
+                width="20"
+                height="20"
+                x="12"
+                y="12"
+              ></use>
+            </svg>
+          </a>
+          <a href="/">
+            <svg class="icon-footer" width="44" height="44">
+              <use
+                href="./images/symbol-defs.svg#icon-facebook"
+                width="20"
+                height="20"
+                x="12"
+                y="12"
+              ></use>
+            </svg>
+          </a>
+          <a href="/">
+            <svg class="icon-footer" width="44" height="44">
+              <use
+                href="./images/symbol-defs.svg#icon-linkedin"
+                width="20"
+                height="20"
+                x="12"
+                y="12"
+              ></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
