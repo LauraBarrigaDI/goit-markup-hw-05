@@ -4,6 +4,7 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 
+
 .container{
     width: 1200px;
     margin-left: auto;
@@ -149,12 +150,67 @@ body{
     cursor: pointer;
 }
 
+.modal{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal--show{
+    opacity: 1;
+    pointer-events: unset;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-container{
+    width: 528px;
+    height: 581px;
+    left: 536px;
+    top: 421px;
+    padding: 8px 8px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.modal-close{
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    left: 1026px;
+    top: 229px;
+    margin-left: 480px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.icon-modal{
+    left: 22.22%;
+    right: 16.67%;
+    top: 16.67%;
+    bottom: 22.22%;
+    color: #000000;  
+}
+
+
+
 /*Valores de la compañía*/
 
 .values-container{
     display: flex;
     margin-right: 30px;
-    padding-top: 30px;
+    padding-top: 20px;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -431,12 +487,14 @@ body{
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     position: relative;
+    overflow: hidden;
     }
 
 .card:hover{
     cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .card-image{
     display: block;
@@ -446,9 +504,11 @@ body{
 .box{
     position:relative;
     background-color: rgba(33, 150, 243, 0.9);
-    transform: translateY(80%);
+    transform: translateY(50%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 
 .card:hover .box{
     top: 0px;
@@ -460,6 +520,9 @@ body{
     transform: translateY(0%);
 }
 
+.box-father{
+    overflow: hidden;
+} 
 .card-heading{
     padding-right: 24px;
     padding-left: 24px;
