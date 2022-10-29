@@ -52,18 +52,12 @@
       <div class="container">
         <div class="title-container">
           <h1 class="h1-title">Soluciones eficaces para su negocio</h1>
-          <button class="button-index" type="button">
+          <button class="button-index" type="button" data-modal-open>
             Solicite nuestros servicios
           </button>
-          <section class="modal">
-            <div class="modal-container">
-              <button class="modal-close">
-                <svg class="icon-modal" width="11" height="11">
-                  <use href="./images/symbol-defs2.svg#icon-X"></use>
-                </svg>
-              </button>
-            </div>
-          </section>
+          
+              
+           
         </div>
       </div>
 
@@ -451,7 +445,15 @@
         </div>
       </section>
     </main>
-
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close" data-modal-close>
+          <svg class="icon-modal" width="11" height="11">
+            <use href="./images/symbol-defs2.svg#icon-X"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
     <!-- Pie de página -->
 
     <footer class="footer-container">
